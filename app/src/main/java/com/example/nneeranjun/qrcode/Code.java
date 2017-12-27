@@ -24,7 +24,7 @@ public class Code extends AppCompatActivity {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Gson gson = new Gson();
         //User user = gson.fromJson(sharedPreferences.getString("user",""),User.class);
-        Toast.makeText(getApplicationContext(),"nahnigga",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"nhnigga",Toast.LENGTH_LONG).show();
         User user = new User("nilay","neeranjun","neeranjun", "neeranjun", "neeranjun", "neeranjun", "neeranjun", null);
         Bitmap qrcode = user.generateQrCode();
         qr_view = (ImageView) findViewById(R.id.qr);
